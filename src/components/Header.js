@@ -1,12 +1,13 @@
 import React from 'react';
 import logo  from '../logo.svg'
 import './Header.css'
+import Title from './Title'
 
 const header = () => {
   return (
     <header>
         <img src={logo} alt="react-logo" className="App-logo" />
-        <h1>My First create-react-app</h1>
+        <Title message="My first create-react-app" />
     </header>
   )
 }
